@@ -1,2 +1,2 @@
 # IMEA
-bot discord qui publie des gif 
+bot discord qui publie des annonces météo

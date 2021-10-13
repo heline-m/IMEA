@@ -1,9 +1,11 @@
 {
-  "name": "imea",
+  "name": "babel",
   "version": "1.0.0",
-  "description": "bot discord qui publie des gif",
-  "main": "index.js",
+  "description": "bot discord qui publie des annonces météo",
+  "main": "main.js",
+  "type": "module",
   "scripts": {
+    "start": "babel-node -r dotenv/config main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,6 +19,15 @@
   },
   "homepage": "https://github.com/heline-m/IMEA#readme",
   "dependencies": {
-    "discord.js": "^13.2.0"
+    "discord.js": "^13.2.0",
+    "dotenv": "^10.0.0",
+    "node": "^16.10.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.8",
+    "@babel/node": "^7.15.8",
+    "@babel/plugin-proposal-throw-expressions": "^7.14.5",
+    "@babel/preset-env": "^7.15.8"
   }
 }
