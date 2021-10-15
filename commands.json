@@ -1,0 +1,16 @@
+{
+      "commands": [
+        {
+          "name": "meteo",
+          "description": "donne la météo",
+          "options": [
+            {
+              "type": 3,
+              "name": "mot_clef",
+              "description": "mot clef pour filtré les différentes météo",
+              "required?": false
+            }
+          ]
+        }
+      ]
+}
