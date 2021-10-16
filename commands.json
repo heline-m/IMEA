@@ -1,0 +1,16 @@
+{
+  "commands": [
+    {
+      "name": "gif",
+      "description": "envoie un gif",
+      "options": [
+        {
+          "type": 3,
+          "name": "mot_clef",
+          "description": "mot clef pour filtré les gif",
+          "required?": false
+        }
+      ]
+    }
+  ]
+}
