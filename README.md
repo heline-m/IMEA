@@ -1,3 +1,28 @@
+# IMEA
+Présente son bot discord qui permet à l'utilisateur d'obtenir des GIF de façon aléatoire.
+***
+## table des matières
+1. [Description du bot](#Description)
+2. [Environnement de développement](#IDE)
+3. [Technologies utilisées](#Technologies)
+4. [Installation de l'application](#Installation)
+5. [Lancement de l'application](#Lancement)
+6. [Du côté de l'utilisateur](#Fonctionnalité)
+7. [Sources](#Sources)
+### Description
+***
+* Bot discord distributeur de GIFS
+* Grâce à ce Bot discord, obtenez des GIFS sympas.
+* Vous récupérez les GIFS de Tenor aléatoirement.
+### IDE
+***
+* IntelliJ
+* Windows 10
+### Technologies
+***
+* Javascript
+* [Node.js](https://nodejs.org/en/) : Version 14.18.0
+### Installation
 ***
 * S'assurer que node est bien installé pour le debug de la calculatrice
 * Il faut cloner le repo puis se positionner dans votre dossier
