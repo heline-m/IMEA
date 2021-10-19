@@ -14,6 +14,7 @@ const {CommandInteraction} = require("discord.js");
  * @param {CommandInteraction} interaction
  */
 function command (interaction){
+    console.log("gif entrée")
     if(interaction.options.get("mot_clef")){
         const mot_clef = interaction.options.get("mot_clef");
         TENOR.Search.Random(mot_clef, "1").then(function (reponse){

@@ -1,28 +1,6 @@
-//
-//import{gif} from './gif';
-/*const {gif} = require('./gif');
 
 const token = process.env.DISCORD_TOKEN;
-const client = new Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES] });
-client.login(token)
 
-
-client.on('ready', () => {
-    console.log(`Logged in as ${client.user.tag}!`);
-});
-*/
-//gif();
-
-/*require('dotenv').config();
-
-
-
-
-
-client.on('ready', () => {
-    console.log(`Logged in as ${client.user.tag}!`);
-});
-*/
 // loger le bot
 const {DISCORD_TOKEN} = require('./config.json');
 const { Client, Intents } = require('discord.js');
@@ -42,6 +20,7 @@ function updateCommand(server){
 }
 
 client.on('ready', function(){
+    console.log("bot lancé");
     client.guilds.fetch().then(function (serveurs){
         serveurs.forEach(function (serveur){
             updateCommand(serveur);
